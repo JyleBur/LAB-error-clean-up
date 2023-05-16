@@ -1,5 +1,5 @@
 {
-  "name": "webpack-5.0-template",
+  "name": "error-clean-up",
   "version": "1.0.0",
   "description": "",
   "main": "public/main.js",
@@ -9,9 +9,10 @@
     "build": "webpack --mode production"
   },
   "keywords": [],
-  "author": "",
+  "author": "The Kyle Berry",
   "license": "ISC",
   "devDependencies": {
+    "ajv": "^7.2.4",
     "css-loader": "^6.2.0",
     "css-minimizer-webpack-plugin": "^3.0.2",
     "eslint": "^7.32.0",
@@ -30,7 +31,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.14.0",
     "@popperjs/core": "^2.9.3",
-    "bootstrap": "^5.1.0",
+    "bootstrap": "^5.2.3",
     "dotenv": "^10.0.0",
     "firebase": "^8.2.0",
     "sass": "^1.51.0"
